@@ -7,7 +7,7 @@ return false
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  text.scan(/\b[Uu]n[a-z]*ing\b /)
+  text.scan(/\bun\w*ing\b /)
 end
 
 def words_five_letters_long(text)
